@@ -1,0 +1,818 @@
+[
+  {
+    "id": "0b8e5af9-14da-42e6-82a1-4d4322f3e720",
+    "sessionId": "270a6cd2-14ff-4cb8-8d2b-68e8401c2c0b",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T10:06:48.292Z",
+    "updatedAt": "2026-06-05T10:06:48.297Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T10:06:48.297Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T10:06:48.297Z"
+      }
+    ]
+  },
+  {
+    "id": "938efe85-a09e-4922-9e00-b09f8746342a",
+    "sessionId": "d37958e1-0465-4956-83fd-15fb89ad1dbb",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T10:15:06.014Z",
+    "updatedAt": "2026-06-05T10:15:06.052Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T10:15:06.052Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T10:15:06.052Z"
+      }
+    ]
+  },
+  {
+    "id": "605d1e1f-8b13-46a7-adfe-6d5fb9d5b1d9",
+    "sessionId": "d4967009-8010-460a-ba4c-9bd334f9cf7b",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T10:17:59.517Z",
+    "updatedAt": "2026-06-05T10:17:59.520Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T10:17:59.520Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T10:17:59.520Z"
+      }
+    ]
+  },
+  {
+    "id": "98b8b770-092d-4b02-be36-f47882d93b55",
+    "sessionId": "9b8c0210-44ce-4d04-9a3a-d369f0b2122e",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T10:21:02.918Z",
+    "updatedAt": "2026-06-05T10:21:02.972Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T10:21:02.973Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T10:21:02.973Z"
+      }
+    ]
+  },
+  {
+    "id": "40e59a10-3f8c-4b25-aa51-94efcf36abd4",
+    "sessionId": "d85a9ccf-8e1a-4411-a02a-a1db6491921e",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T14:58:14.110Z",
+    "updatedAt": "2026-06-05T14:58:14.119Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T14:58:14.119Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T14:58:14.119Z"
+      }
+    ]
+  },
+  {
+    "id": "67677752-cca3-47dd-ba76-d17e1e897ca4",
+    "sessionId": "811cfbc7-8f68-41e8-8f11-b63e641201fd",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:03:22.659Z",
+    "updatedAt": "2026-06-05T15:03:22.680Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:03:22.680Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:03:22.680Z"
+      }
+    ]
+  },
+  {
+    "id": "715c137f-0cc6-4ba7-b235-f04b26857ad8",
+    "sessionId": "3cba75a1-0664-43cb-b7cc-892ea11a91ab",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:05:01.029Z",
+    "updatedAt": "2026-06-05T15:05:01.049Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:05:01.049Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:05:01.049Z"
+      }
+    ]
+  },
+  {
+    "id": "0bd23086-ce48-457d-b2e8-76551c4b5b1a",
+    "sessionId": "1ef24c32-9651-47d8-8d2d-0fb8c589c1ca",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:09:49.947Z",
+    "updatedAt": "2026-06-05T15:09:49.964Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:09:49.964Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:09:49.964Z"
+      }
+    ]
+  },
+  {
+    "id": "7fb8765b-a891-4d67-a97f-a4ff55003f8c",
+    "sessionId": "91cbad90-b983-4d9c-bc82-82d9f1a818bf",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:16:35.123Z",
+    "updatedAt": "2026-06-05T15:16:35.141Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:16:35.141Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:16:35.141Z"
+      }
+    ]
+  },
+  {
+    "id": "4eabe6ee-6794-440b-a05e-8715752f29d3",
+    "sessionId": "cd125f18-aba6-4dfc-a139-31cbbf993417",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:17:00.271Z",
+    "updatedAt": "2026-06-05T15:17:00.274Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:17:00.274Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:17:00.274Z"
+      }
+    ]
+  },
+  {
+    "id": "b5605b89-64d1-428e-a9ef-724e59b6159f",
+    "sessionId": "52cfad78-ae22-43bc-90e0-c3b85ec7f247",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:17:07.879Z",
+    "updatedAt": "2026-06-05T15:17:07.881Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:17:07.881Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:17:07.881Z"
+      }
+    ]
+  },
+  {
+    "id": "9fb35a0c-2f5c-49c5-ad41-338d97586b44",
+    "sessionId": "4e7014aa-9692-4021-a62a-42bd181f7e2e",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:19:52.963Z",
+    "updatedAt": "2026-06-05T15:19:52.994Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:19:52.994Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:19:52.994Z"
+      }
+    ]
+  },
+  {
+    "id": "b2242c9c-f8dc-44a9-aa52-6abafb221c27",
+    "sessionId": "d120caed-ba59-40fe-9898-fccd510c74dd",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-05T15:20:42.848Z",
+    "updatedAt": "2026-06-05T15:20:42.868Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-05T15:20:42.868Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-05T15:20:42.868Z"
+      }
+    ]
+  },
+  {
+    "id": "067917c6-cc2b-448f-bbe4-aff66b047a41",
+    "sessionId": "92c0b974-21a1-4527-b575-c810b5f7474c",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T09:49:51.236Z",
+    "updatedAt": "2026-06-07T09:49:51.271Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T09:49:51.271Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T09:49:51.271Z"
+      }
+    ]
+  },
+  {
+    "id": "e07a0e04-f5c6-44b2-ac0b-bd9af0eb26f4",
+    "sessionId": "8f36f3fd-0665-4829-b3e6-e7457d14bdec",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:01:08.217Z",
+    "updatedAt": "2026-06-07T10:01:08.218Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:01:08.218Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:01:08.218Z"
+      }
+    ]
+  },
+  {
+    "id": "b9886e91-898e-44e3-9448-e639959a2a50",
+    "sessionId": "31740420-dbbe-4f2b-9451-f20c289c595c",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:02:38.815Z",
+    "updatedAt": "2026-06-07T10:02:38.825Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:02:38.825Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:02:38.825Z"
+      }
+    ]
+  },
+  {
+    "id": "26aaca02-9d4c-42e1-8cd6-9db896a2d49c",
+    "sessionId": "4f6ae84b-e59f-4358-95ee-7496a63a50a8",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:04:43.041Z",
+    "updatedAt": "2026-06-07T10:04:43.062Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:04:43.062Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:04:43.062Z"
+      }
+    ]
+  },
+  {
+    "id": "b4056a68-1319-4a23-b0a7-622b392406c8",
+    "sessionId": "682d14b9-4f56-44de-9412-fc57b3ede535",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:05:00.389Z",
+    "updatedAt": "2026-06-07T10:05:00.391Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:05:00.391Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:05:00.391Z"
+      }
+    ]
+  },
+  {
+    "id": "afc60ae9-4447-4ef6-8ab6-e0037b065b18",
+    "sessionId": "a482a135-574e-4fc7-aa88-7ebfcfd80c7f",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:05:39.153Z",
+    "updatedAt": "2026-06-07T10:05:39.156Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:05:39.156Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:05:39.156Z"
+      }
+    ]
+  },
+  {
+    "id": "1b96f3db-cad1-4738-9884-e950a9abe827",
+    "sessionId": "d7e2d070-ee69-4b42-9ee1-0d469393c1ef",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:07:50.760Z",
+    "updatedAt": "2026-06-07T10:07:50.790Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:07:50.791Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:07:50.791Z"
+      }
+    ]
+  },
+  {
+    "id": "38d7a93d-9f30-462e-9cea-d692e42f7812",
+    "sessionId": "986d04a4-ef94-41c4-b782-752bc2096efd",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:08:40.253Z",
+    "updatedAt": "2026-06-07T10:08:40.255Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:08:40.255Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:08:40.255Z"
+      }
+    ]
+  },
+  {
+    "id": "ad962e31-77d9-4ba6-9ade-bc4bf232d767",
+    "sessionId": "8e3460a8-9930-4396-9af8-76dcd76353cc",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:08:48.958Z",
+    "updatedAt": "2026-06-07T10:08:48.963Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:08:48.963Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:08:48.963Z"
+      }
+    ]
+  },
+  {
+    "id": "e407a84b-650f-4687-87ed-97de55974455",
+    "sessionId": "2dacb626-357b-4324-bb16-5c2a6c66a731",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:07.696Z",
+    "updatedAt": "2026-06-07T10:09:07.698Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:07.698Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:07.698Z"
+      }
+    ]
+  },
+  {
+    "id": "8e231e0e-ff85-4b99-bf55-7429fa397ca3",
+    "sessionId": "b53e6a04-3b8d-46b0-bc9b-32450b5fee7d",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:15.499Z",
+    "updatedAt": "2026-06-07T10:09:15.504Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:15.504Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:15.504Z"
+      }
+    ]
+  },
+  {
+    "id": "ca46e91c-73a2-4805-b048-77ef74b4e9d0",
+    "sessionId": "6a2dafa4-c80f-4957-a94b-00b1b8434bbe",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:18.056Z",
+    "updatedAt": "2026-06-07T10:09:18.058Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:18.058Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:18.058Z"
+      }
+    ]
+  },
+  {
+    "id": "41cd5990-be99-4f3d-b055-3ba5648e73a3",
+    "sessionId": "c5eae486-79ff-4679-98fa-8c5b19d0ef20",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:21.640Z",
+    "updatedAt": "2026-06-07T10:09:21.645Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:21.645Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:21.645Z"
+      }
+    ]
+  },
+  {
+    "id": "656ca5c0-7bca-4680-9d8f-b3403e89658b",
+    "sessionId": "a59b1f96-deb0-4680-a446-8e251e9654c5",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:24.507Z",
+    "updatedAt": "2026-06-07T10:09:24.512Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:24.512Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:24.512Z"
+      }
+    ]
+  },
+  {
+    "id": "6bb22114-c243-4e59-8a33-5d3b9cd9ad95",
+    "sessionId": "4a70023e-1379-4c0d-9f77-e4c0e93c0972",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:27.974Z",
+    "updatedAt": "2026-06-07T10:09:27.976Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:27.976Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:27.976Z"
+      }
+    ]
+  },
+  {
+    "id": "4de68b9f-8256-4b23-bb0b-06c529ba305f",
+    "sessionId": "df167742-0b75-4538-beab-d18f15781bd2",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:30.451Z",
+    "updatedAt": "2026-06-07T10:09:30.453Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:30.453Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:30.453Z"
+      }
+    ]
+  },
+  {
+    "id": "af414ecc-80ec-4aa3-acd5-1edee06c9660",
+    "sessionId": "f31abfca-f2ea-480f-9b54-3f7ed32e0e5f",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:32.702Z",
+    "updatedAt": "2026-06-07T10:09:32.708Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:32.708Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:32.708Z"
+      }
+    ]
+  },
+  {
+    "id": "44e5d78b-e322-4b3c-83c8-9584460a3dc2",
+    "sessionId": "54af62cb-152e-4bda-9f39-46ce10f233b7",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:34.732Z",
+    "updatedAt": "2026-06-07T10:09:34.734Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:34.734Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:34.734Z"
+      }
+    ]
+  },
+  {
+    "id": "b61d9d38-e2f0-4bf2-b631-fab668a7b6fb",
+    "sessionId": "5c47e7bb-5f93-42dd-a944-4dce6e0a79d7",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:09:59.118Z",
+    "updatedAt": "2026-06-07T10:09:59.120Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:09:59.120Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:09:59.120Z"
+      }
+    ]
+  },
+  {
+    "id": "17840b06-cc2c-4e71-b1fe-23c29f6d6ac8",
+    "sessionId": "ded9a71f-cd7b-470e-a479-4ed3b3cf6ade",
+    "emotion": "neutral",
+    "urgency": "Low",
+    "category": "other",
+    "resolved": false,
+    "escalated": false,
+    "escalationReason": null,
+    "createdAt": "2026-06-07T10:11:01.388Z",
+    "updatedAt": "2026-06-07T10:11:01.395Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:11:01.395Z"
+      },
+      {
+        "role": "bot",
+        "content": "I'm sorry, I'm having trouble processing your request right now. Please try again in a moment.",
+        "time": "2026-06-07T10:11:01.395Z"
+      }
+    ]
+  },
+  {
+    "id": "9121c83f-f94a-42ad-998d-3307cb32d827",
+    "sessionId": "05e191a3-c97c-4604-a2c5-58e40e9ffc39",
+    "emotion": "angry",
+    "urgency": "High",
+    "category": "delivery",
+    "resolved": false,
+    "escalated": true,
+    "escalationReason": "Customer is very angry",
+    "createdAt": "2026-06-07T10:12:54.251Z",
+    "updatedAt": "2026-06-07T10:12:54.254Z",
+    "messages": [
+      {
+        "role": "customer",
+        "content": "I ordered a phone 2 weeks ago and it still hasn't arrived! I am very angry!",
+        "time": "2026-06-07T10:12:54.254Z"
+      },
+      {
+        "role": "bot",
+        "content": "I am truly sorry to hear that your phone hasn't arrived yet. I understand how frustrating it is to wait two weeks for an order. I would like to investigate this immediately for you. Could you please provide your order number so I can track the shipment and find out where it is?",
+        "time": "2026-06-07T10:12:54.254Z"
+      }
+    ]
+  }
+]
