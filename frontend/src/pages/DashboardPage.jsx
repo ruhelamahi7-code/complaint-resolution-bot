@@ -24,27 +24,22 @@ export default function DashboardPage() {
     { label: 'Calm', count: 43, color: '#1D9E75' },
   ]
 
- useEffect(() => {
+  useEffect(() => {
     const canvas = canvasRef.current
     if (!canvas) return
     const ctx = canvas.getContext('2d')
-    
     const dpr = window.devicePixelRatio || 1
     const W = canvas.offsetWidth
     const H = 220
-    
     canvas.width = W * dpr
     canvas.height = H * dpr
     canvas.style.width = W + 'px'
     canvas.style.height = H + 'px'
     ctx.scale(dpr, dpr)
-
     const max = Math.max(...categories.map(b => b.count))
     ctx.clearRect(0, 0, W, H)
-
     const barW = 36
     const gap = (W - categories.length * barW) / (categories.length + 1)
-
     categories.forEach((cat, i) => {
       const x = gap + i * (barW + gap)
       const barH = (cat.count / max) * 160
@@ -63,11 +58,11 @@ export default function DashboardPage() {
     })
   }, [])
 
+  const totalSentiment = sentiments.reduce((sum, s) => sum + s.count, 0)
+
   return (
     <div className="max-w-3xl mx-auto mt-8 px-4">
       <h2 className="text-xl font-semibold text-gray-800 mb-6">Analytics Dashboard</h2>
-
-      {/* Stat cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         {stats.map(s => (
           <div key={s.label} className={`rounded-xl p-4 ${s.color}`}>
@@ -76,32 +71,24 @@ export default function DashboardPage() {
           </div>
         ))}
       </div>
-
-      {/* Bar chart */}
       <div className="bg-white rounded-2xl border border-gray-200 p-6 mb-6">
         <h3 className="text-sm font-medium text-gray-600 mb-4">Complaints by Category</h3>
         <canvas ref={canvasRef} style={{ width: '100%', height: '220px' }} />
       </div>
-
-      {/* Sentiment breakdown */}
       <div className="bg-white rounded-2xl border border-gray-200 p-6">
         <h3 className="text-sm font-medium text-gray-600 mb-4">Sentiment Breakdown</h3>
         <div className="flex flex-col gap-3">
           {sentiments.map(s => (
             <div key={s.label} className="flex items-center gap-3">
-              <span className="text-sm text-gray-600 w-20">{s.label}</span>
+              <span className="text-sm text-gray-600 w-24">{s.label}</span>
               <div className="flex-1 bg-gray-100 rounded-full h-3">
-                <div
-                  className="h-3 rounded-full"
-                  style={{ width: `${(s.count / 128) * 100}%`, background: s.color }}
-                />
+                <div className="h-3 rounded-full" style={{ width: `${(s.count / totalSentiment) * 100}%`, background: s.color }} />
               </div>
               <span className="text-sm font-medium text-gray-700 w-8">{s.count}</span>
             </div>
           ))}
         </div>
       </div>
-
     </div>
   )
 }
