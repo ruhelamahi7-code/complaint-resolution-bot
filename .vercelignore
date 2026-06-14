@@ -1,0 +1,8 @@
+backend/
+src/
+server.js
+node_modules/
+.env
+.env.example
+.gitignore
+README.md
