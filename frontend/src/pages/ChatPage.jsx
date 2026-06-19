@@ -92,10 +92,10 @@ export default function ChatPage() {
     } : t))
     setLoading(true)
     try {
-      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/chat`, {
+      const res = await fetch('http://localhost:5000/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text, sessionId: activeTicketId })
+        body: JSON.stringify({ message: text, history: updatedMessages })
       })
       const data = await res.json()
       const botMsg = {
