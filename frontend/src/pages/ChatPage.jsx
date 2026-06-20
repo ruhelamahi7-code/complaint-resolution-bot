@@ -56,8 +56,23 @@ const defaultTickets = [
 ]
 
 export default function ChatPage() {
-  const [tickets, setTickets] = useState(defaultTickets)
-  const [activeTicketId, setActiveTicketId] = useState('#1023')
+  const [tickets, setTickets] = useState(() => {
+    try {
+      const saved = localStorage.getItem('resolvbot-tickets')
+      return saved ? JSON.parse(saved) : defaultTickets
+    } catch {
+      return defaultTickets
+    }
+  })
+
+  const [activeTicketId, setActiveTicketId] = useState(() => {
+    try {
+      return localStorage.getItem('resolvbot-active-ticket') || '#1023'
+    } catch {
+      return '#1023'
+    }
+  })
+
   const [escalated, setEscalated] = useState(false)
   const [loading, setLoading] = useState(false)
   const bottomRef = useRef(null)
@@ -67,6 +82,18 @@ export default function ChatPage() {
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [activeTicket?.messages])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('resolvbot-tickets', JSON.stringify(tickets))
+    } catch {}
+  }, [tickets])
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('resolvbot-active-ticket', activeTicketId)
+    } catch {}
+  }, [activeTicketId])
 
   const handleNewChat = () => {
     const newId = '#' + (1030 + tickets.length)
@@ -92,7 +119,7 @@ export default function ChatPage() {
     } : t))
     setLoading(true)
     try {
-      const res = await fetch('http://localhost:5000/api/chat', {
+      const res = await fetch('https://complaint-resolution-bot-production.up.railway.app/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message: text, sessionId: activeTicketId })
