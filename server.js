@@ -1,8 +1,9 @@
 const dotenv = require('dotenv');
-dotenv.config(); // This MUST be first before anything else
+dotenv.config();
 
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const chatRoutes = require('./src/routes/chatRoutes');
 
 const app = express();
@@ -13,10 +14,24 @@ app.use(express.json());
 
 console.log('API Key loaded:', process.env.GEMINI_API_KEY ? 'YES ✅' : 'NO ❌');
 
+// API routes
 app.use('/api', chatRoutes);
 
-app.get('/', (req, res) => {
+// Serve frontend static files
+app.use(express.static(path.join(__dirname, 'frontend/dist')));
+
+// Root API endpoint
+app.get('/api/health', (req, res) => {
   res.json({ message: 'Complaint Resolution Bot Backend is running! 🚀' });
+});
+
+// Catch-all for React routing
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
+});
+
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname, 'frontend/dist/index.html'));
 });
 
 app.listen(PORT, () => {
